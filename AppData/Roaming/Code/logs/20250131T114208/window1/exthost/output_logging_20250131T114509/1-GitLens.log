@@ -1,0 +1,6 @@
+GitLens v16.2.1 activating in Visual Studio Code (1.96.4) on the desktop; language='pt-br', logLevel='warn', defaultDateLocale='null' (c8fb1a31b9be0185437b3d6ec5347ad72e86e08140a4b470fc2ab25cdd5da0cf|db670243-9b98-4804-8ce5-4c7f56086dd11738334682844)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2025-01-31 14:46:01.512] [GIT   *4706ms] [c:\Users\Jonat\OneDrive\Área de Trabalho\working\projeto landing page] git rev-parse --show-toplevel [*4706ms] (slow)
+[2025-01-31 14:46:22.059] [GIT  *17465ms] [c:/Users/Jonat] git rev-parse --git-dir --git-common-dir [*17465ms] (slow)
+[2025-01-31 14:46:24.304] [GIT   *2607ms] [c:/Users/Jonat] git remote -v [*2607ms] (slow)
+[2025-01-31 14:46:24.957] [GIT   *3242ms] [c:/Users/Jonat] git rev-list --max-parents=0 HEAD -- [*3242ms] (slow)

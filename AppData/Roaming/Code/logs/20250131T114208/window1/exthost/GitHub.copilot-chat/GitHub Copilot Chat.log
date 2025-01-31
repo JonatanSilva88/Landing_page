@@ -1,0 +1,41 @@
+2025-01-31 11:46:05.180 [info] Using the Electron fetcher.
+2025-01-31 11:46:05.181 [info] Initializing Git extension service.
+2025-01-31 11:46:05.188 [info] Successfully activated the vscode.git extension.
+2025-01-31 11:46:05.188 [info] Enablement state of the vscode.git extension: true.
+2025-01-31 11:46:05.188 [info] Successfully registered Git commit message provider.
+2025-01-31 11:46:22.486 [warning] GitHub login failed
+2025-01-31 11:46:22.506 [info] copilot token chat_enabled: undefined, sku: 
+2025-01-31 11:46:28.977 [warning] GitHub login failed
+2025-01-31 11:46:29.035 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:446:3909)
+    at B0.getCopilotToken (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:446:2438)
+    at dF.getCopilotToken (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:334:26267)
+    at IZ.waitForChatEnabled (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:444:13713)
+    at IZ.run (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:444:13432)
+    at w0.askToUpgradeAuthPermissions (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:444:12870): Failed to get copilot token
+2025-01-31 11:46:29.062 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-01-31 11:46:29.063 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-31 11:46:29.063 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:446:3909)
+    at B0.getCopilotToken (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:446:2438)
+    at dF.getCopilotToken (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:334:26267)
+    at Y0._getAuthSession (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:488:2825)
+    at Object.A [as task] (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:488:640)
+    at xC._processQueue (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:487:1101)
+2025-01-31 11:46:29.063 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-01-31 11:46:29.064 [error] Error: GitHubLoginFailed
+    at B0._authShowWarnings (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:446:3909)
+    at B0.getCopilotToken (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:446:2438)
+    at dF.getCopilotToken (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:334:26267)
+    at Y0._getAuthSession (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:488:2825)
+    at r (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:488:2288)
+    at Y0._registerEmbeddings (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:488:2787)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tB.waitForActivationBlockers (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:334:13668)
+    at c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:2255:4201
+    at Frr (c:\Users\Jonat\.vscode\extensions\github.copilot-chat-0.23.2\dist\extension.js:2255:4014)
+    at K0.n (file:///c:/Users/Jonat/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+    at K0.m (file:///c:/Users/Jonat/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+    at K0.l (file:///c:/Users/Jonat/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-01-31 11:46:29.065 [info] activationBlocker from 'languageModelAccess' took for 2604ms

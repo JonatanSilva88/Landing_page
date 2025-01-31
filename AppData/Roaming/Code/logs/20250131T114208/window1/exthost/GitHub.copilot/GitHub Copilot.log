@@ -1,0 +1,5 @@
+2025-01-31 11:46:20.979 [error] [auth] auth: CopilotAuthError: Not signed in
+    at c:\Users\Jonat\.vscode\extensions\github.copilot-1.261.0\lib\src\auth\copilotTokenManager.ts:80:23 {
+  cause: undefined
+}
+2025-01-31 11:46:21.199 [info] [certificates] Removed 14 expired certificates
